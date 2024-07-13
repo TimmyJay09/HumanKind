@@ -1,0 +1,378 @@
+@media (max-width: 800px) {
+}
+nav.navbar{
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1000;
+}
+@media (max-width: 800px) {
+    li.nav-item{
+        margin-top: 20px;     
+    }
+    form.butt{
+        display: grid;
+        margin: 20px 0 20px 0;
+    }
+    form.butt button{
+        height: 60px;
+    }
+    a.cmpname strong{
+        display: none;
+    }
+}
+marquee{
+    font-size: 7em;
+    background-image: linear-gradient(#04091e9c,#04091eb7),url(../HumanKind/Images/marque\ back.jpeg);
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    font-family: monospace;
+    margin-top: 100px;
+}
+@media (max-width: 800px) {
+    marquee{
+        font-size: 2.5em;
+        margin-top: 55px;
+        overflow-x: hidden;
+    } 
+}
+div.hero img{
+    width: 90vw;
+}
+div.hero2{
+    position: relative;
+    top: -220px;
+}
+div.herotxt{
+    margin-top: -220px;
+}
+@media (max-width: 800px) {
+    div.hero img{
+        margin-top: -30px;
+    }
+    div.hero2{
+        top: -30px;
+    }
+    div.herotxt{
+        margin-top: -10px;
+    }
+    div.herobtn{
+        display: grid;
+        gap: 10px;
+    }
+    div.hero{
+        overflow-x: hidden;
+    }
+}
+div.sect1img1{
+    width: 530px;
+}
+div.sect1img1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+@media (max-width: 800px) {
+    div.sect1{
+        overflow-x: hidden;
+    }
+    div.sect1img1{
+        width: 530px;
+    }
+    div.sect1 div.container{
+        width: 90vw;
+    }
+    div.sect1 div.first{
+        margin-top: 130px;
+    }
+    div.btn1{
+        display: grid;
+        margin-bottom: 20px;
+    }
+    div.btn2{
+        text-align: center;
+        display: block;
+        margin-bottom: 20px;
+    }
+    button.learn{
+        margin-bottom: 5px;
+    }
+    div.btn3{
+        display: grid;
+        margin-bottom: 20px;
+    }
+    div.btn4{
+        display: grid;
+        margin-bottom: 20px;
+    }
+    div.btn5{
+        display: grid;
+        gap: 5px;
+        margin-bottom: 40px;
+    }
+    div.last{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    div.lastimg{
+        margin-bottom: 30px;
+    }
+}
+div.sect2{
+    background-image: linear-gradient(#04091e28,#04091e28),url(../HumanKind/Images/Touse2.jpeg);
+    background-position: center;
+    background-size: contain;
+    margin-top: 100px;
+}
+div.one{
+    display: flex;
+    gap: 16.2em;
+    position: relative;
+    left: -70px;
+}
+div.two{
+    display: flex;
+    position: relative;
+    top: -30px;
+}
+div.cir1 img, div.cir2 img, div.cir3 img, div.cir4 img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border: 5px solid black;
+}
+div.cir1{
+    width: 130px;
+}
+div.cir2{
+    width: 130px;
+}
+div.cir3{
+    width: 130px;
+}
+div.cir4{
+    width: 130px;
+}
+#all{
+    display: grid;
+    justify-content: center;
+    position: relative;
+    top: -65px;
+}
+div.sect2txt{
+    margin-top: -80px;
+}
+@media (max-width: 800px) {
+    div.sect2{
+        overflow-x: hidden;
+    }
+    div.cir1{
+        width: 80px;
+    }
+    div.cir2{
+        width: 80px;
+        position: relative;
+        top: -20px;
+    }
+    div.cir3{
+        width: 80px;
+        position: relative;
+        top: -100px;
+        left: 160px;
+    }
+    div.cir4{
+        width: 80px;
+        position: relative;
+        top: -115px;
+    }
+    div.one{
+        display: block;
+        /* gap: 16.2em; */
+        position: relative;
+        left: 0;
+    }
+    div.two{
+        display: inline-block;
+        position: relative;
+        top: 0;
+    }#all{
+        display: grid;
+        justify-content: start;
+        position: relative;
+        top: -50px;
+        left: 35px;
+    }
+    div.sect2 div.container{
+        width: 90vw;
+    }
+    div.sect2txt{
+        margin-top: -160px;
+    }
+    div.sect2btn{
+        display: grid;
+        gap: 15px;
+    }
+}
+div.sect3{
+    background-image: linear-gradient(#04091e28,#04091e28),url(../HumanKind/Images/Touse.jpeg);
+    background-position: center;
+    background-size: contain;
+    padding-left: 20px;
+}
+div.sect3div1{
+    width: max-content;
+    height: max-content;
+    padding: 50px 40px 40px 40px;
+    margin-top: 60px;
+}
+div.sect3div2 img{
+    width: 100%;
+    height: 100%;
+}
+div.sect3div2{
+    height: 700px;
+}
+@media (max-width: 800px) {
+    div.sect3div2{
+        height: 300px;
+        width: 70vw;
+        margin: 0 auto;
+        position: relative;
+        top: -50px;
+    }
+    div.sect3div1{
+        width: 90vw;
+        height: max-content;
+        padding: 45px 35px;
+        margin: 50px auto 0 auto;
+        font-size: 10px !important; 
+    }
+    div.sect3{
+        overflow-x: hidden;
+        padding-left: 0;
+    }
+}
+div.sect4img img{
+    width: 100%;
+    height: 100%;
+}
+div.sect4img {
+    width: 1100px;
+}
+div.sect4txt p{
+    font-size: 20px ;
+}
+@media (max-width: 800px) {
+    div.sect4img {
+        width: 330px;
+        margin: 0 auto;
+    }
+    div.sect4txt p{
+        font-size: 17px;
+    }
+    div.sect4t{
+        margin-top: -30px !important;
+    }
+}
+div.sect5{
+    background-image: linear-gradient(#04091e28,#04091e28),url(../HumanKind/Images/62e481b3e4a0474dbafb520e_home-background.png);
+    background-position: center;
+    background-size: cover;
+}
+div.sect5img img{
+    width: 100%;
+    height: 100%;
+}
+div.sect5img{
+    width: 100px;
+}
+div.sect5div{
+    height: 300px;
+    width: 500px;
+}
+@media (max-width: 800px) {
+    div.sect5{
+        overflow-x: hidden;
+    }
+    div.sect5 div.row h2{
+        text-align: center;
+    }
+    div.sect5img{
+        margin: 0 auto;
+    }
+    div.sect5div{
+        height: 220px;
+        width: 90vw;
+        margin: 0 auto;
+        padding: 10px;
+    }
+}
+div.sect6img img{
+    width: 100%;
+    height: 100%;
+}
+div.sect6img{
+    width: 1000px;
+}
+@media (max-width: 800px) {
+    div.sect6{
+        overflow-x: hidden;
+    }
+}
+div.sect7img img{
+    width: 100%;
+    height: 100%;
+}
+div.sect7img{
+    width: 700px;
+    margin: 0 auto;
+}
+@media (max-width: 800px) {
+    div.sect7{
+        overflow-x: hidden;
+    }
+}
+div.footerimg img{
+    width: 100%;
+    height: 100%;
+} 
+div.footerimg{
+    width: 700px;
+} 
+footer h1{
+    font-size: 55px;
+    font-weight: 800;
+}
+@media (max-width: 800px) {
+    footer{
+        overflow-x: hidden;
+    }
+    footer div.row{
+        display: flex;
+        flex-direction: column-reverse;
+        /* text-align: center; */
+    }
+    div.footerimg{
+        width: 90vw;
+        margin: 150px auto 0 auto;
+    } 
+    footer h1{
+        font-size: 35px;
+        font-weight: 800;
+    }
+    div.footerbtn{
+        display: grid;
+        justify-content: center;
+        gap: 10px;
+    }
+    div.footertxt{
+        display: grid;
+        justify-content: center;
+        text-align: center;
+    }
+    div.footerbtn button{
+        width: 160px;
+        font-size: 13px;
+    }
+}
